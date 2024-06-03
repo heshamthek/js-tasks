@@ -1,3 +1,83 @@
+/*var cash=1000
+var liabilities = 500
+console.log(  "cash flow ratio:",cash/ liabilities )
+
+var revenues= 1000
+var expenses= 500
+
+console.log(  "net income:",revenues - expenses )
+
+
+
+var liabilities = 1000
+var equity =500
+console.log(  "Total assets:",liabilities + equity )
+
+var profit= 1000
+var sales = 500
+console.log( "net income:", profit * sales)
+
+console.log( " average:" ,(7+9+2)/3)
+
+
+
+console.log( 150-(150 * 0.30) )
+  let age=18
+if (true){
+    age>18
+}
+if (true){
+   age<30
+}
+
+
+
+console.log(typeof(100))
+console.log( typeof(73.9))
+console.log( typeof(NaN))
+console.log( typeof("Water"))
+console.log( typeof(false))
+console.log( typeof(9 != 11))
+console.log( "4" + "8")
+console.log( "4" - "8")
+console.log( "name" + 3)
+console.log( "name" - 3)
+console.log( 1 + "hello")
+console.log( "hello" + 1)
+console.log( 1 + true)
+console.log( "hello" + true)
+console.log( typeof (Infinity) )
+console.log( 1 == '1')
+console.log( 1 === '1')
+
+let str = "WELCOME TO ORANGE";
+let result = str.substr(8,2);
+let ssss = str.substr(10,7);
+let a = "jordan"
+let u = str.substr(0,9);
+let o = "orange" 
+console.log(`${str}`);
+console.log(`Hello from ${ssss}`);
+console.log(17);
+console.log(`${u} ${o}`);
+console.log(`${str} ${a} `);
+//window.alert("Welcome");
+
+
+let q = 1_00;
+let w = 2_00.5;
+let e = 1e2;
+let d= 2.4;
+console.log(Math.round(Math.min( q,w,e,d)) )
+console.log( Math.pow(q, Math.floor(d)))
+console.log(Math.round(d))
+console.log(Math.floor(d))
+console.log(Math.trunc(d))
+console.log(Math.round(Math.min(d)) )
+console.log(Math.round(w/Math.ceil(d) ))
+console.log(w/Math.ceil(d))
+*/
+
 /*
 let q= "hesham";
 let w = true;
