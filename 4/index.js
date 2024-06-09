@@ -28,10 +28,16 @@ form.addEventListener("submit", function(event) {
     console.log("submission");
 });
 
+
+
+
 nameInput.addEventListener("blur", function() {
     this.style.borderColor = "black"; 
 });
 
+document.getElementById("focus").addEventListener("focus", function() {
+    this.style.borderColor="red";
+});
 
 
 
@@ -40,4 +46,20 @@ document.getElementById("scroll").addEventListener("click", function() {
         top: 0,
     });
 });
+
+
+document.getElementById("keyd").addEventListener("keydown", function(e) {
+    if(e.key == "1") {
+        console.log("1");
+      }
+    
+});
+
+
+document.getElementById("myDiv").addEventListener("click", function() {
+    this.classList.toggle("active");
+  });
+  
+
+
 
