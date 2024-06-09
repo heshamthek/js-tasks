@@ -23,7 +23,6 @@
 //  getcarinfo: function(){
 //     return`${this.make} ${this.model} ${this.year}`
 //  },
-
 //  };
 // console.log(car.getcarinfo())
 
@@ -59,6 +58,44 @@
 //     return g ;
 // }
 // console.log( st("hello,world", ','))
+ 
+
+
+
+
+// let colors= ["red", "white" ,"green"];
+
+// function printcolors(colors){ 
+//     for(let i in colors){
+//         console.log(colors[i])
+//     }
+// }
+// printcolors(colors)
+
+
+
+// tasks3.1
+// function calculatearea(rdd){
+//     return Math.PI * rdd;
+// }
+
+// console.log(calculatearea(5))
+// console.log(calculatearea(10))
+
+// let str=""
+// let reversestring=function(ok){
+//     for(let i = ok.length-1 ;i>=0;i--){
+//     str+=ok[i]
+//     }
+//     return str
+// }
+// console.log(reversestring("hello"))
+
+const username="";
+const disage= document.getElementById("okk")
+    disage.textContent += username ==""? ' sami': username;
+
+
 
 
 
